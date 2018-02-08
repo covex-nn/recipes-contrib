@@ -1,0 +1,10 @@
+sonata_notification:
+#    backend: sonata.notification.backend.doctrine
+#    backends:
+#        doctrine: ~
+#    class:
+#        message: App\Entity\SonataNotificationMessage
+    consumers:
+        register_default: false
+    admin:
+        enabled: false
